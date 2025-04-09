@@ -1,0 +1,23 @@
+{
+  "name":"mmdemo",
+  "tags":[],
+  "provider":"tkgs",
+  "version":"postgres-15",
+  "networkPolicyIds":["xxx"],
+  "region":"tanzu",
+  "instanceSize":"XX-SMALL",
+  "serviceType":"POSTGRES",
+  "dedicated":false,
+  "shared":true,
+  "dataPlaneId":"xxx",
+  "clusterMetadata":{
+  "username":"my_pg_user",
+  "password":"P4$$word",
+  "database":"mmdemo",
+  "restoreFrom":null,
+  "extensions":[],
+  "objectStoreId":null,
+  "parameters":{}
+  },
+  "storagePolicyName":"vsan-default-storage-policy"
+}'

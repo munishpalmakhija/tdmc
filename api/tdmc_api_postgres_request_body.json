@@ -1,0 +1,20 @@
+{
+    "name": "mmdemo-api",
+    "serviceType": "POSTGRES",
+    "tags": [],
+    "instanceSize": "XX-SMALL",
+    "version": "postgres-15",
+    "provider": "tkgs",
+    "dataPlaneId": "xx",
+    "dedicated": false,
+    "shared": true,
+    "networkPolicyIds":["xxx"],
+    "clusterMetadata": {
+        "username": "admin",
+        "password": "PWD",
+        "database": "mmdemoapi",
+        "objectStoreId": null,
+        "extensions":[]
+    },
+    "storagePolicyName": "vsan-default-storage-policy"
+}
